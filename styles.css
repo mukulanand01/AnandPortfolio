@@ -1,0 +1,93 @@
+/* ===========================
+   Simple CSS (Beginner Friendly)
+   =========================== */
+
+/* Reset: removes default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+  font-family: Arial, sans-serif; /* easy font */
+  background: #ffffff; /* light background */
+  color: #222; /* dark text for readability */
+  line-height: 1.6; /* comfortable line spacing */
+}
+
+/* Main container */
+.container {
+  width: 90%;
+  max-width: 900px; /* page width limit */
+  margin: 20px auto; /* center on page */
+  background: #fff; /* white card */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+
+.tagline {
+  color: #444;
+  margin-top: 6px;
+}
+
+.location {
+  color: #666;
+  margin-top: 4px;
+}
+
+/* Sections */
+section {
+  margin-top: 24px;
+}
+
+section h2 {
+  font-size: 1.3rem;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+}
+
+/* Cards for education and projects */
+.card {
+  background: #f6f6f6; /* soft grey */
+  padding: 12px;
+  border: 1px solid #ededed;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+/* Lighter text */
+.muted {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Lists */
+ul {
+  margin-left: 18px; /* indent bullet list */
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #777;
+  font-size: 0.9rem;
+}
